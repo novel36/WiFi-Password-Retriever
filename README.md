@@ -20,6 +20,7 @@ Once you have Python installed, you can install the required dependencies by run
 
 ```bash
 pip install -r requirements.txt
+ ```
 
 This will install the `pyautogui` and `pyperclip` libraries that are required to run the script.
 
@@ -28,6 +29,7 @@ To use the script, simply run it from your terminal using the following command:
 
 ```bash
 python control_panel_automation.py
+```
 
 The script will open the Control Panel, search for the ‘View network status’ option, and retrieve the password for a WiFi network connection. The password will be printed to the terminal.
 
